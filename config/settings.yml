@@ -1,7 +1,7 @@
 development: &non_production_settings
   site_url: http://localhost:3000
   site_name: Bort
-  admin_email: bort@bort.com
+  admin_email: barrye@email.com
   
 test:
   <<: *non_production_settings
