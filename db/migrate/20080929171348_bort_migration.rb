@@ -72,7 +72,5 @@ class BortMigration < ActiveRecord::Migration
     drop_table :passwords
     drop_table :roles
     drop_table :roles_users
-    drop_table :open_id_authentication_associations
-    drop_table :open_id_authentication_nonces
   end
 end
